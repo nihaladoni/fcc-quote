@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/fcc-quote/static/css/main.e12e19f6.chunk.css",
+    "main.js": "/fcc-quote/static/js/main.54745eda.chunk.js",
+    "main.js.map": "/fcc-quote/static/js/main.54745eda.chunk.js.map",
+    "runtime-main.js": "/fcc-quote/static/js/runtime-main.e972cc8b.js",
+    "runtime-main.js.map": "/fcc-quote/static/js/runtime-main.e972cc8b.js.map",
+    "static/css/2.cbdafa58.chunk.css": "/fcc-quote/static/css/2.cbdafa58.chunk.css",
+    "static/js/2.6900afef.chunk.js": "/fcc-quote/static/js/2.6900afef.chunk.js",
+    "static/js/2.6900afef.chunk.js.map": "/fcc-quote/static/js/2.6900afef.chunk.js.map",
+    "index.html": "/fcc-quote/index.html",
+    "precache-manifest.f6631ce0692816cd96f08b12319484b1.js": "/fcc-quote/precache-manifest.f6631ce0692816cd96f08b12319484b1.js",
+    "service-worker.js": "/fcc-quote/service-worker.js",
+    "static/css/2.cbdafa58.chunk.css.map": "/fcc-quote/static/css/2.cbdafa58.chunk.css.map",
+    "static/css/main.e12e19f6.chunk.css.map": "/fcc-quote/static/css/main.e12e19f6.chunk.css.map",
+    "static/js/2.6900afef.chunk.js.LICENSE.txt": "/fcc-quote/static/js/2.6900afef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e972cc8b.js",
+    "static/css/2.cbdafa58.chunk.css",
+    "static/js/2.6900afef.chunk.js",
+    "static/css/main.e12e19f6.chunk.css",
+    "static/js/main.54745eda.chunk.js"
+  ]
+}
