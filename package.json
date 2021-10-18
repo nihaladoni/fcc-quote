@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "http://nihaladoni.github.io/fcc-quote",
   "dependencies": {
     "bootstrap": "4.5.3",
     "react": "17.0.0",
@@ -20,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",

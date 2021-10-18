@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import MyButton from "./Button";
 import { getRandomColor } from "./RandomColor";
-import { Fade } from "react-awesome-reveal";
 import Skeleton from "react-loading-skeleton";
 
 class QuoteBox extends Component {
@@ -46,18 +45,16 @@ class QuoteBox extends Component {
       <>
         <div className="row">
           <div className="col-md-6 col-xs-8 " id="quote-box">
-            <Fade delay={300}>
-              <p id="text">
-                <span id="myquote">&ldquo;</span>
-                {quoteObject.quote || <Skeleton />}
-              </p>
-              <p id="author">
-                -
-                {quoteObject.author
-                  ? quoteObject.author
-                  : "Anonymous" || <Skeleton />}
-              </p>
-            </Fade>
+            <p id="text">
+              <span id="myquote">&ldquo;</span>
+              {quoteObject.quote || <Skeleton />}
+            </p>
+            <p id="author">
+              -
+              {quoteObject.author
+                ? quoteObject.author
+                : "Anonymous" || <Skeleton />}
+            </p>
 
             <div className="button-group">
               {/* <MyButton>
